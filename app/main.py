@@ -8,13 +8,13 @@ from telegram.ext import (
     ConversationHandler,
 )
 
-from core.auth import auth
-from core.env_handler import load_env
-from core.error_handlers import error_handler
-from core.file_handler import save_record
-from core.logger import get_logger
-from core.types import State
-from core.utils import process_record_message
+from app.core.auth import auth
+from app.core.env_handler import load_env
+from app.core.error_handlers import error_handler
+from app.core.file_handler import save_record
+from app.core.logger import get_logger
+from app.core.types import State
+from app.core.utils import process_record_message
 
 
 logger = get_logger()

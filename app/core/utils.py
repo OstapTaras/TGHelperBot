@@ -1,4 +1,4 @@
-from .types import Record
+from app.core.types import Record
 
 def process_record_message(text: str) -> Record:
     '''do something with records'''

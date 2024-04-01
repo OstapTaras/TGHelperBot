@@ -3,8 +3,8 @@ import os
 from dataclasses import asdict
 from datetime import date
 
-from .logger import get_logger
-from .types import Record
+from app.core.logger import get_logger
+from app.core.types import Record
 
 
 logger = get_logger()
