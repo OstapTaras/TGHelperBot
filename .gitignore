@@ -4,3 +4,4 @@ __pycache__/*
 .env
 google-cloud-sdk
 .DS_Store
+run.sh
